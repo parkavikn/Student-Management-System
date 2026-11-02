@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS studentdb;
+
+USE studentdb;
+
+CREATE TABLE IF NOT EXISTS student (
+roll_no INT PRIMARY KEY,
+name VARCHAR(50) NOT NULL,
+department VARCHAR(50) NOT NULL,
+marks DOUBLE NOT NULL
+);
